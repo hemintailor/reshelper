@@ -182,4 +182,4 @@ Thanks for your interest in contributing to this repo!
 
 ## License
 
-This code is licensed under the [MIT License](https://github.com/hemintailor/reshelper/blob/master/LICENSE). See the [LICENSE.md](https://github.com/hemintailor/reshelper/blob/master/LICENSE) file for more info.
+This code is licensed under the [MIT License](https://github.com/hemintailor/reshelper/blob/master/LICENSE). See the [LICENSE](https://github.com/hemintailor/reshelper/blob/master/LICENSE) file for more info.
