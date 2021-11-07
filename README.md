@@ -178,7 +178,7 @@ Thanks for your interest in contributing to this repo!
 
 ## Author
 
-[Luiz Felipe Zarco](https://github.com/hemintailor) (flyingtailorbird@gmail.com)
+[Hemin Tailor](https://github.com/hemintailor) (flyingtailorbird@gmail.com)
 
 ## License
 
