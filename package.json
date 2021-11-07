@@ -1,0 +1,34 @@
+{
+  "name": "reshelper",
+  "version": "1.0.1",
+  "description": "Map response for REST API",
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "README.md",
+    "LICENCE"
+  ],
+  "keywords": [
+    "reshelper",
+    "response",
+    "rest",
+    "res",
+    "api",
+    "json",
+    "express",
+    "http",
+    "status",
+    "content",
+    "data"
+  ],
+  "author": "Hemin Tailor <flyingtailorbird@gmail.com> (https://github.com/hemintailor)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/hemintailor/reshelper"
+  },
+  "bugs": {
+    "url": "https://github.com/hemintailor/reshelper/issues"
+  },
+  "homepage": "https://github.com/hemintailor/reshelper#readme"
+}
