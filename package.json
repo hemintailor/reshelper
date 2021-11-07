@@ -1,7 +1,7 @@
 {
   "name": "reshelper",
   "version": "1.0.1",
-  "description": "Map response for REST API",
+  "description": "Map response for REST API,Node REST API Helper",
   "main": "index.js",
   "files": [
     "index.js",
@@ -10,6 +10,7 @@
   ],
   "keywords": [
     "reshelper",
+    "helper",
     "response",
     "rest",
     "res",
