@@ -27,6 +27,8 @@ app.use(resHelper);
 ```
 Yes that's it.
 
+<br/>
+
 ## Usage
 
 ### Success response
@@ -49,6 +51,7 @@ It will Generate the response shown below:
   "message": ""
 }
 ```
+<br/>
 
 ### Success response with a message and code.
 
@@ -77,6 +80,8 @@ It will Generate the response shown below:
 }
 ```
 
+<br/>
+
 ### Error response
 ```javascript
 router.get('/', (req, res, next) => {
@@ -98,6 +103,8 @@ It will Generate the response shown below:
   "message": "Anything bad happen"
 }
 ```
+
+<br/>
 
 ### Error response with custom code
 ```javascript
@@ -122,6 +129,8 @@ you can always remove "stack" from response, By simply setting the `.env` variab
 }
 ```
 
+<br/>
+
 ### Message response
 ```javascript
 router.put('/', (req, res, next) => {
@@ -141,6 +150,8 @@ It will Generate the response shown below:
 }
 ```
 
+<br/>
+
 ### Methods
 ```javascript
   return res.data({foo: 'bar'});
@@ -152,6 +163,7 @@ It will Generate the response shown below:
   return res.error(new Error('Anything happen'), 400);  // with custom code
 ```
 
+<br/>
 
 ### Some ENV variables
 
@@ -161,6 +173,7 @@ It will Generate the response shown below:
 | RES_HALPER_ERR_CONSOLE | Boolean (default: false)<br/>true: will display error in console. <br/>false: Will disable error console|
 | RES_HALPER_DISABLE_ERR_STACK | Boolean (default: false)<br/>true: will hide stack from error in response. <br/>false: Will display error stack in response|
 
+<br/>
 
 ## Contributing
 
@@ -176,9 +189,13 @@ You can (and should) [open an issue](https://github.com/hemintailor/reshelper/is
 
 Thanks for your interest in contributing to this repo!
 
+<br/>
+
 ## Author
 
 [Hemin Tailor](https://github.com/hemintailor) (flyingtailorbird@gmail.com)
+
+<br/>
 
 ## License
 
