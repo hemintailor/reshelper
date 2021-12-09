@@ -97,10 +97,10 @@ It will Generate the response shown below:
   "success": false,
   "data": null,
   "error": {
-    "message": "Anything bad happen",
-    "stack": "Error: Anything bad happen\n    at app\\routes\\index.js:9:20\n    at Layer.handle [as handle_request] (app\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (app\\node_modules\\express\\lib\\router\\route.js:137:13)\n    at Route.dispatch (app\\node_modules\\express\\lib\\router\\route.js:112:3)\n    at Layer.handle [as handle_request] (app\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at app\\node_modules\\express\\lib\\router\\index.js:281:22\n    at Function.process_params (app\\node_modules\\express\\lib\\router\\index.js:335:12)\n    at next (app\\node_modules\\express\\lib\\router\\index.js:275:10)\n    at Function.handle (app\\node_modules\\express\\lib\\router\\index.js:174:3)\n    at router (app\\node_modules\\express\\lib\\router\\index.js:47:12)"
+    "message": "Anything happen",
+    "stack": "Error: Anything happen\n    at app\\routes\\index.js:9:20\n    at Layer.handle [as handle_request] (app\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (app\\node_modules\\express\\lib\\router\\route.js:137:13)\n    at Route.dispatch (app\\node_modules\\express\\lib\\router\\route.js:112:3)\n    at Layer.handle [as handle_request] (app\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at app\\node_modules\\express\\lib\\router\\index.js:281:22\n    at Function.process_params (app\\node_modules\\express\\lib\\router\\index.js:335:12)\n    at next (app\\node_modules\\express\\lib\\router\\index.js:275:10)\n    at Function.handle (app\\node_modules\\express\\lib\\router\\index.js:174:3)\n    at router (app\\node_modules\\express\\lib\\router\\index.js:47:12)"
   },
-  "message": "Anything bad happen"
+  "message": "Anything happen"
 }
 ```
 
@@ -122,10 +122,10 @@ you can always remove "stack" from response, By simply setting the `.env` variab
   "success": false,
   "data": null,
   "error": {
-    "message": "Anything bad happen",
-    "stack": "Error: Anything bad happen\n    at app\\routes\\index.js:9:20\n    at Layer.handle [as handle_request] (app\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (app\\node_modules\\express\\lib\\router\\route.js:137:13)\n    at Route.dispatch (app\\node_modules\\express\\lib\\router\\route.js:112:3)\n    at Layer.handle [as handle_request] (app\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at app\\node_modules\\express\\lib\\router\\index.js:281:22\n    at Function.process_params (app\\node_modules\\express\\lib\\router\\index.js:335:12)\n    at next (app\\node_modules\\express\\lib\\router\\index.js:275:10)\n    at Function.handle (app\\node_modules\\express\\lib\\router\\index.js:174:3)\n    at router (app\\node_modules\\express\\lib\\router\\index.js:47:12)"
+    "message": "Anything happen",
+    "stack": "Error: Anything happen\n    at app\\routes\\index.js:9:20\n    at Layer.handle [as handle_request] (app\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (app\\node_modules\\express\\lib\\router\\route.js:137:13)\n    at Route.dispatch (app\\node_modules\\express\\lib\\router\\route.js:112:3)\n    at Layer.handle [as handle_request] (app\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at app\\node_modules\\express\\lib\\router\\index.js:281:22\n    at Function.process_params (app\\node_modules\\express\\lib\\router\\index.js:335:12)\n    at next (app\\node_modules\\express\\lib\\router\\index.js:275:10)\n    at Function.handle (app\\node_modules\\express\\lib\\router\\index.js:174:3)\n    at router (app\\node_modules\\express\\lib\\router\\index.js:47:12)"
   },
-  "message": "Anything bad happen"
+  "message": "Anything happen"
 }
 ```
 
