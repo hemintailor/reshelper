@@ -64,7 +64,10 @@ module.exports = (req, res, next) => {
 
     res.error = (error, code) => {
         code = error.code || code || SERVER_ERROR;
-        if (error.constructor.name === 'Error') {
+        if (error.constructor.name === 'Error' ||
+            error.constructor.name === 'error' ||
+            error.constructor.name === 'Object' ||
+            error.constructor.name === 'object') {
             if (ERR_CONSOLE) {
                 console.log(error);
             }
