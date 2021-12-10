@@ -1,6 +1,6 @@
 {
   "name": "reshelper",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Map response for REST API,Node REST API Helper",
   "main": "index.js",
   "files": [
