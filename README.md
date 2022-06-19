@@ -8,6 +8,8 @@ https://www.npmjs.com/package/reshelper
 
 [![npm](https://nodei.co/npm/reshelper.png)](https://www.npmjs.com/package/reshelper)
 
+### [Demo](https://github.com/hemintailor/node-mongo)
+
 ## Installation
 
 Package is available at: https://www.npmjs.com/package/reshelper
